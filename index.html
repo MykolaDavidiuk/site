@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Settings</title>
+    <link rel="stylesheet" href="./style/bootstrap.min.css">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <script src="./script/bootstrap.min.js"></script>
+</head>
+<body>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid nav__wrap">
+          <div class="container-fluid">
+            <img src="https://img.icons8.com/wired/64/ffffff/woman-at-computer.png" class="nav__image">
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-link" href="./Home.html" target="_self">Home</a>
+                <a class="nav-link" href="./Homework.html" target="_self">Homework</a>
+                <a class="nav-link active" aria-current="page" href="#">Settings</a>
+              </div>
+            </div>
+          </div>
+          <img src="./images/av_64.png" alt="profile">
+        </div>
+      </nav>
+      <div class="conteiner heading__wrap">
+        <h2 class="heading">
+          Settings
+        </h2>
+      </div>
+      <div class="conteiner articles">
+        <div class="row articles__row">
+          <div class="col-2">avatar</div>
+          <div class="col-5">Student's info</div>
+          <div class="col-5">Change password</div>
+        </div>
+        <div class="row content__row">
+          <div class="col-2 photo__settings">
+            <img src="./images/av_256.png" alt="photo__image">
+            <button class="btn btn-secondary" type="submit">Chose photo</button>
+          </div>
+          <div class="col-5 form__area">
+            <input type="text" class="form-control" placeholder="First name">
+            <input type="text" class="form-control" placeholder="Last name">
+            <input type="email" class="form-control" placeholder="Email">
+            <input type="tel" class="form-control" placeholder="Phone number">
+            <input type="text" class="form-control" placeholder="Adress">
+            <input type="text" class="form-control" placeholder="FB link">
+            <button class="btn btn-secondary form-control" type="submit">Save changes</button>
+          </div>
+          <div class="col-5 form__area">
+            <input type="password" class="form-control" placeholder="Old password">
+            <input type="password" class="form-control" placeholder="New password">
+            <input type="password" class="form-control" placeholder="Repeat password">
+            <button class="btn btn-secondary form-control" type="submit">Change password</button>
+          </div>
+        </div>
+      </div>
+      
+</body>
+</html>
